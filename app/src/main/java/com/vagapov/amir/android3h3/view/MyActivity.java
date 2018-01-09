@@ -100,12 +100,12 @@ public class MyActivity extends MvpViewStateActivity<InfoView, InfoPresenter> im
         MyActivityViewState vs = (MyActivityViewState) viewState;
         vs.showingDialog(true);
         vs.showingButton(true);
-        dialog.show();
         Toast.makeText(MyActivity.this, R.string.conversion_run, Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void convertImg() {
+        dialog.show();
         presenter.startToConvert();
     }
 

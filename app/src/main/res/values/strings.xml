@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Android3H3</string>
+    <string name="convert">Convert</string>
+    <string name="process">Conversion was running</string>
+    <string name="dialogTitle">Conversion</string>
+    <string name="open_img">Open Image</string>
+    <string name="conversion_cancel">Conversion was canceled</string>
+    <string name="conversion_succ">Conversion was successful</string>
+    <string name="conversion_run">Conversion run</string>
+    <string name="cancel">Cancel</string>
+    <string name="unavailable_storage">External storage is unavailable</string>
+</resources>
